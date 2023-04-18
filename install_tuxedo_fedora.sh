@@ -11,7 +11,7 @@ cd ~/git_clones/tuxedo-keyboard/
 # create rpm package with build-in package command
 git checkout release
 
-patch ~/git_clones/tuxedo-keyboard/src_pkg/rpm_pkg.spec ~/rpm_pkg.patch
+patch ~/git_clones/tuxedo-keyboard/src_pkg/rpm_pkg.spec ~/git_clones/tuxedo-keyboard/rpm_pkg.patch
 
 sudo make package-rpm
 
