@@ -1,0 +1,11 @@
+--- rpm_pkg.spec	2023-04-17 20:50:41.365418982 +0200
++++ rpm_pkg.spec_new	2023-04-17 20:50:29.235193876 +0200
+@@ -90,7 +90,7 @@
+             systemctl stop tccd 2>&1 || true
+         fi
+ 
+-        % Explicitly unload old tuxedo_cc_wmi if loaded at this point
++        # Explicitly unload old tuxedo_cc_wmi if loaded at this point
+         rmmod tuxedo_cc_wmi > /dev/null 2>&1 || true
+ 
+         echo "(Re)load modules if possible"
