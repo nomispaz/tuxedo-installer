@@ -55,5 +55,5 @@ sudo rm -R ~/git_clones/tuxedo-contol-center
 ############################################################################
 
 # install packages
-# fedora
-sudo zypper install ./tuxedo-control-center_2.0.2.rpm ./tuxedo-keyboard-3.2.1-1.noarch.rpm
+# suse
+#sudo zypper install ./tuxedo-control-center_2.0.2.rpm ./tuxedo-keyboard-3.2.1-1.noarch.rpm
